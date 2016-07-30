@@ -4,7 +4,8 @@ MAINTAINER tyler@disruptiveart.com
 
 
 # Install libraries need for packaging
-RUN apt-get install bzip2
+RUN apt-get update
+RUN apt-get install -y bzip2
 
 # Install Node
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
