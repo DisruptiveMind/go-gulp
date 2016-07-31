@@ -23,4 +23,4 @@ pngcrush-bin@3.0.0 marked@0.3.6 node-gyp@3.4.0
 RUN go get github.com/smartystreets/goconvey
 
 # Install phantomJS dependency
-RUN apt-get install libfontconfig
+RUN apt-get install -y libfontconfig
